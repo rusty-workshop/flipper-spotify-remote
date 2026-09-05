@@ -1,0 +1,12 @@
+App(
+    appid="spotify_remote",
+    name="Spotify Remote",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="spotify_remote_app",
+    stack_size=2 * 1024,
+    fap_libs=["ble_profile"],
+    fap_description="Control Spotify (or any media player) over Bluetooth as a wireless media remote",
+    fap_version="1.0",
+    fap_category="Bluetooth",
+    fap_icon="icons/spotify_remote_10px.png",
+)
